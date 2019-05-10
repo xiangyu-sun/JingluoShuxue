@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>mainCures</key>
+		<string>胃痛，落枕，颈痛</string>
+		<key>name</key>
+		<string>外劳宫</string>
+		<key>locating</key>
+		<string>在手背侧，第二三掌骨间，掌指关节后约0.5寸处</string>
+	</dict>
+	<dict>
+		<key>mainCures</key>
+		<string>急性腰扭伤，腰椎间盘突出症，腰肌劳损</string>
+		<key>name</key>
+		<string>腰痛点</string>
+		<key>locating</key>
+		<string>在手背，当第二三及第四五掌骨间，腕背远端横纹与掌指关节的中点，一手两穴</string>
+	</dict>
+</array>
+</plist>

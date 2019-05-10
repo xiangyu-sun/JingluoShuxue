@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>mainCures</key>
+		<string>急慢性胆囊炎，胆石症，胆道蛔虫引起的胆绞痛</string>
+		<key>name</key>
+		<string>胆囊</string>
+		<key>locating</key>
+		<string>在小腿外侧上部，当腓骨小头前下方凹陷处，阳陵泉直下两寸</string>
+	</dict>
+	<dict>
+		<key>mainCures</key>
+		<string>急慢性阑尾炎，消化不良</string>
+		<key>name</key>
+		<string>阑尾</string>
+		<key>locating</key>
+		<string>在小腿前侧上部，当犊鼻下五寸，胫骨前缘旁开一横指</string>
+	</dict>
+	<dict>
+		<key>mainCures</key>
+		<string>齿痛，骨病，痛风，小腿麻痹</string>
+		<key>name</key>
+		<string>外踝尖</string>
+		<key>locating</key>
+		<string>在外踝最高点处</string>
+	</dict>
+</array>
+</plist>

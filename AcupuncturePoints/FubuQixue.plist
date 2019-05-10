@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>mainCures</key>
+		<string>月经不调，痛经，子宫肌瘤，功能性子宫出血</string>
+		<key>name</key>
+		<string>子宫</string>
+		<key>locating</key>
+		<string>在下腹部，当脐中下四寸，中极旁开三寸</string>
+		<key>forbidden</key>
+		<string>孕妇</string>
+	</dict>
+	<dict>
+		<key>mainCures</key>
+		<string>子宫肌瘤，不孕，不育，腹痛，月经过多</string>
+		<key>name</key>
+		<string>三角灸</string>
+		<key>locating</key>
+		<string>以患者两口角之间的长度为一边，做等边三角形，将顶角至于患者脐心，底边呈水平线，两底角处是该穴</string>
+		<key>forbidden</key>
+		<string>孕妇</string>
+	</dict>
+</array>
+</plist>

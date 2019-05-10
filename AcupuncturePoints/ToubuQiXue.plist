@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>mainCures</key>
+		<string>眉棱骨痛，口眼歪斜，腰痛</string>
+		<key>name</key>
+		<string>鱼腰</string>
+		<key>locating</key>
+		<string>眉毛中点直对瞳孔处</string>
+	</dict>
+	<dict>
+		<key>mainCures</key>
+		<string>偏头痛，目赤，牙痛，面瘫</string>
+		<key>name</key>
+		<string>太阳</string>
+		<key>locating</key>
+		<string>在颞部，当眉梢与目外眦间，向后约一横指凹陷处</string>
+	</dict>
+	<dict>
+		<key>mainCures</key>
+		<string>失眠，头痛，眩晕，癫痫</string>
+		<key>name</key>
+		<string>安眠</string>
+		<key>locating</key>
+		<string>在项部，当翳风穴与风池穴连线中点</string>
+	</dict>
+	<dict>
+		<key>mainCures</key>
+		<string>颈项强痛，咳嗽，气喘，虚劳，颈淋巴肿大</string>
+		<key>name</key>
+		<string>颈百劳</string>
+		<key>locating</key>
+		<string>大椎穴直上两寸，后正中线旁开一寸</string>
+	</dict>
+</array>
+</plist>

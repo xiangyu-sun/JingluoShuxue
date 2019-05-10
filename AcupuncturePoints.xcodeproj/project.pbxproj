@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		995E9E771F9F9F4A009FB55C /* JingluoFlowDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995E9E761F9F9F4A009FB55C /* JingluoFlowDataSource.swift */; };
+		995E9E791F9FA047009FB55C /* JingluoYingYangDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995E9E781F9FA047009FB55C /* JingluoYingYangDataSource.swift */; };
+		995E9E7B1F9FA8F2009FB55C /* ShuxueSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995E9E7A1F9FA8F2009FB55C /* ShuxueSearchTableViewController.swift */; };
+		995E9E7D1F9FAD2D009FB55C /* ShuxueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995E9E7C1F9FAD2D009FB55C /* ShuxueTableViewCell.swift */; };
+		996017431FADDECC00296ED5 /* ToubuQiXue.plist in Resources */ = {isa = PBXBuildFile; fileRef = 996017421FADDECC00296ED5 /* ToubuQiXue.plist */; };
+		996017451FADE12D00296ED5 /* FubuQixue.plist in Resources */ = {isa = PBXBuildFile; fileRef = 996017441FADE12D00296ED5 /* FubuQixue.plist */; };
+		996017471FADE25D00296ED5 /* BeibuQixue.plist in Resources */ = {isa = PBXBuildFile; fileRef = 996017461FADE25D00296ED5 /* BeibuQixue.plist */; };
+		996017491FADE2EB00296ED5 /* ShangzhiQixue.plist in Resources */ = {isa = PBXBuildFile; fileRef = 996017481FADE2EB00296ED5 /* ShangzhiQixue.plist */; };
+		9960174B1FADE3BC00296ED5 /* XiazhiQixue.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9960174A1FADE3BC00296ED5 /* XiazhiQixue.plist */; };
+		996D25591FADEFD100F655F8 /* ShuxueDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996D25581FADEFD100F655F8 /* ShuxueDetailTableViewController.swift */; };
+		996D255B1FADF01B00F655F8 /* ShuxueTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996D255A1FADF01B00F655F8 /* ShuxueTitleTableViewCell.swift */; };
+		996D255D1FADF02700F655F8 /* ShuxueCureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996D255C1FADF02700F655F8 /* ShuxueCureTableViewCell.swift */; };
+		996D255F1FADF03500F655F8 /* ShuxueLocatingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996D255E1FADF03500F655F8 /* ShuxueLocatingTableViewCell.swift */; };
+		998BBB631FB614D600D23D75 /* ShaoerShuxue.plist in Resources */ = {isa = PBXBuildFile; fileRef = 998BBB621FB614D600D23D75 /* ShaoerShuxue.plist */; };
+		998BBB651FB627F100D23D75 /* ShuxueDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BBB641FB627F100D23D75 /* ShuxueDataSource.swift */; };
+		998BBB671FB62DEB00D23D75 /* Shuxue+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BBB661FB62DEB00D23D75 /* Shuxue+Util.swift */; };
+		99DBEE3C2014EE4D005D6564 /* ShuxueApplianceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DBEE3B2014EE4D005D6564 /* ShuxueApplianceTableViewCell.swift */; };
+		99EC00011F9A7CFF00A33FE7 /* ShuxueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EC00001F9A7CFF00A33FE7 /* ShuxueTableViewController.swift */; };
+		99EC00031F9A868400A33FE7 /* Shuxues.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99EC00021F9A868400A33FE7 /* Shuxues.plist */; };
+		99EC00051F9B89C400A33FE7 /* BiaoliTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EC00041F9B89C400A33FE7 /* BiaoliTableViewCell.swift */; };
+		99ECFFA61F9A0C5000A33FE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ECFFA51F9A0C5000A33FE7 /* AppDelegate.swift */; };
+		99ECFFA91F9A0C5000A33FE7 /* AcupuncturePoints.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99ECFFA71F9A0C5000A33FE7 /* AcupuncturePoints.xcdatamodeld */; };
+		99ECFFAB1F9A0C5000A33FE7 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ECFFAA1F9A0C5000A33FE7 /* MasterViewController.swift */; };
+		99ECFFB01F9A0C5000A33FE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99ECFFAE1F9A0C5000A33FE7 /* Main.storyboard */; };
+		99ECFFB21F9A0C5000A33FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99ECFFB11F9A0C5000A33FE7 /* Assets.xcassets */; };
+		99ECFFB51F9A0C5000A33FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99ECFFB31F9A0C5000A33FE7 /* LaunchScreen.storyboard */; };
+		99ECFFC01F9A0C5000A33FE7 /* AcupuncturePointsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ECFFBF1F9A0C5000A33FE7 /* AcupuncturePointsTests.swift */; };
+		99ECFFCB1F9A0C5100A33FE7 /* AcupuncturePointsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ECFFCA1F9A0C5100A33FE7 /* AcupuncturePointsUITests.swift */; };
+		99ECFFD91F9A10A700A33FE7 /* JingluoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ECFFD81F9A10A700A33FE7 /* JingluoType.swift */; };
+		99ECFFDB1F9A1DF000A33FE7 /* ShuXueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ECFFDA1F9A1DF000A33FE7 /* ShuXueType.swift */; };
+		99ECFFDD1F9A29A300A33FE7 /* DisplayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ECFFDC1F9A29A300A33FE7 /* DisplayTableViewController.swift */; };
+		99ECFFDF1F9A2D6F00A33FE7 /* DataUpdator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ECFFDE1F9A2D6F00A33FE7 /* DataUpdator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99ECFFBC1F9A0C5000A33FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99ECFF9A1F9A0C5000A33FE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99ECFFA11F9A0C5000A33FE7;
+			remoteInfo = AcupuncturePoints;
+		};
+		99ECFFC71F9A0C5000A33FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99ECFF9A1F9A0C5000A33FE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99ECFFA11F9A0C5000A33FE7;
+			remoteInfo = AcupuncturePoints;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		995E9E761F9F9F4A009FB55C /* JingluoFlowDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JingluoFlowDataSource.swift; sourceTree = "<group>"; };
+		995E9E781F9FA047009FB55C /* JingluoYingYangDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JingluoYingYangDataSource.swift; sourceTree = "<group>"; };
+		995E9E7A1F9FA8F2009FB55C /* ShuxueSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuxueSearchTableViewController.swift; sourceTree = "<group>"; };
+		995E9E7C1F9FAD2D009FB55C /* ShuxueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuxueTableViewCell.swift; sourceTree = "<group>"; };
+		996017421FADDECC00296ED5 /* ToubuQiXue.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ToubuQiXue.plist; sourceTree = "<group>"; };
+		996017441FADE12D00296ED5 /* FubuQixue.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FubuQixue.plist; sourceTree = "<group>"; };
+		996017461FADE25D00296ED5 /* BeibuQixue.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BeibuQixue.plist; sourceTree = "<group>"; };
+		996017481FADE2EB00296ED5 /* ShangzhiQixue.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ShangzhiQixue.plist; sourceTree = "<group>"; };
+		9960174A1FADE3BC00296ED5 /* XiazhiQixue.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = XiazhiQixue.plist; sourceTree = "<group>"; };
+		996D25581FADEFD100F655F8 /* ShuxueDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuxueDetailTableViewController.swift; sourceTree = "<group>"; };
+		996D255A1FADF01B00F655F8 /* ShuxueTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuxueTitleTableViewCell.swift; sourceTree = "<group>"; };
+		996D255C1FADF02700F655F8 /* ShuxueCureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuxueCureTableViewCell.swift; sourceTree = "<group>"; };
+		996D255E1FADF03500F655F8 /* ShuxueLocatingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuxueLocatingTableViewCell.swift; sourceTree = "<group>"; };
+		998BBB621FB614D600D23D75 /* ShaoerShuxue.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ShaoerShuxue.plist; sourceTree = "<group>"; };
+		998BBB641FB627F100D23D75 /* ShuxueDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuxueDataSource.swift; sourceTree = "<group>"; };
+		998BBB661FB62DEB00D23D75 /* Shuxue+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shuxue+Util.swift"; sourceTree = "<group>"; };
+		99DBEE3B2014EE4D005D6564 /* ShuxueApplianceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuxueApplianceTableViewCell.swift; sourceTree = "<group>"; };
+		99EC00001F9A7CFF00A33FE7 /* ShuxueTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuxueTableViewController.swift; sourceTree = "<group>"; };
+		99EC00021F9A868400A33FE7 /* Shuxues.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Shuxues.plist; sourceTree = "<group>"; };
+		99EC00041F9B89C400A33FE7 /* BiaoliTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiaoliTableViewCell.swift; sourceTree = "<group>"; };
+		99ECFFA21F9A0C5000A33FE7 /* AcupuncturePoints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcupuncturePoints.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99ECFFA51F9A0C5000A33FE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99ECFFA81F9A0C5000A33FE7 /* AcupuncturePoints.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AcupuncturePoints.xcdatamodel; sourceTree = "<group>"; };
+		99ECFFAA1F9A0C5000A33FE7 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		99ECFFAF1F9A0C5000A33FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99ECFFB11F9A0C5000A33FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99ECFFB41F9A0C5000A33FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99ECFFB61F9A0C5000A33FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99ECFFBB1F9A0C5000A33FE7 /* AcupuncturePointsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcupuncturePointsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99ECFFBF1F9A0C5000A33FE7 /* AcupuncturePointsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcupuncturePointsTests.swift; sourceTree = "<group>"; };
+		99ECFFC11F9A0C5000A33FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99ECFFC61F9A0C5000A33FE7 /* AcupuncturePointsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcupuncturePointsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99ECFFCA1F9A0C5100A33FE7 /* AcupuncturePointsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcupuncturePointsUITests.swift; sourceTree = "<group>"; };
+		99ECFFCC1F9A0C5100A33FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99ECFFD81F9A10A700A33FE7 /* JingluoType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JingluoType.swift; sourceTree = "<group>"; };
+		99ECFFDA1F9A1DF000A33FE7 /* ShuXueType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuXueType.swift; sourceTree = "<group>"; };
+		99ECFFDC1F9A29A300A33FE7 /* DisplayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTableViewController.swift; sourceTree = "<group>"; };
+		99ECFFDE1F9A2D6F00A33FE7 /* DataUpdator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUpdator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99ECFF9F1F9A0C5000A33FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99ECFFB81F9A0C5000A33FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99ECFFC31F9A0C5000A33FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99ECFF991F9A0C5000A33FE7 = {
+			isa = PBXGroup;
+			children = (
+				99ECFFA41F9A0C5000A33FE7 /* AcupuncturePoints */,
+				99ECFFBE1F9A0C5000A33FE7 /* AcupuncturePointsTests */,
+				99ECFFC91F9A0C5000A33FE7 /* AcupuncturePointsUITests */,
+				99ECFFA31F9A0C5000A33FE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99ECFFA31F9A0C5000A33FE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99ECFFA21F9A0C5000A33FE7 /* AcupuncturePoints.app */,
+				99ECFFBB1F9A0C5000A33FE7 /* AcupuncturePointsTests.xctest */,
+				99ECFFC61F9A0C5000A33FE7 /* AcupuncturePointsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99ECFFA41F9A0C5000A33FE7 /* AcupuncturePoints */ = {
+			isa = PBXGroup;
+			children = (
+				99ECFFA51F9A0C5000A33FE7 /* AppDelegate.swift */,
+				99ECFFDE1F9A2D6F00A33FE7 /* DataUpdator.swift */,
+				99ECFFAA1F9A0C5000A33FE7 /* MasterViewController.swift */,
+				99ECFFDC1F9A29A300A33FE7 /* DisplayTableViewController.swift */,
+				99EC00001F9A7CFF00A33FE7 /* ShuxueTableViewController.swift */,
+				99EC00041F9B89C400A33FE7 /* BiaoliTableViewCell.swift */,
+				99ECFFD81F9A10A700A33FE7 /* JingluoType.swift */,
+				99ECFFDA1F9A1DF000A33FE7 /* ShuXueType.swift */,
+				995E9E761F9F9F4A009FB55C /* JingluoFlowDataSource.swift */,
+				995E9E781F9FA047009FB55C /* JingluoYingYangDataSource.swift */,
+				995E9E7A1F9FA8F2009FB55C /* ShuxueSearchTableViewController.swift */,
+				998BBB641FB627F100D23D75 /* ShuxueDataSource.swift */,
+				995E9E7C1F9FAD2D009FB55C /* ShuxueTableViewCell.swift */,
+				996D25581FADEFD100F655F8 /* ShuxueDetailTableViewController.swift */,
+				996D255A1FADF01B00F655F8 /* ShuxueTitleTableViewCell.swift */,
+				996D255C1FADF02700F655F8 /* ShuxueCureTableViewCell.swift */,
+				996D255E1FADF03500F655F8 /* ShuxueLocatingTableViewCell.swift */,
+				99DBEE3B2014EE4D005D6564 /* ShuxueApplianceTableViewCell.swift */,
+				998BBB661FB62DEB00D23D75 /* Shuxue+Util.swift */,
+				99EC00021F9A868400A33FE7 /* Shuxues.plist */,
+				996017421FADDECC00296ED5 /* ToubuQiXue.plist */,
+				996017441FADE12D00296ED5 /* FubuQixue.plist */,
+				996017461FADE25D00296ED5 /* BeibuQixue.plist */,
+				996017481FADE2EB00296ED5 /* ShangzhiQixue.plist */,
+				9960174A1FADE3BC00296ED5 /* XiazhiQixue.plist */,
+				998BBB621FB614D600D23D75 /* ShaoerShuxue.plist */,
+				99ECFFAE1F9A0C5000A33FE7 /* Main.storyboard */,
+				99ECFFB11F9A0C5000A33FE7 /* Assets.xcassets */,
+				99ECFFB31F9A0C5000A33FE7 /* LaunchScreen.storyboard */,
+				99ECFFB61F9A0C5000A33FE7 /* Info.plist */,
+				99ECFFA71F9A0C5000A33FE7 /* AcupuncturePoints.xcdatamodeld */,
+			);
+			path = AcupuncturePoints;
+			sourceTree = "<group>";
+		};
+		99ECFFBE1F9A0C5000A33FE7 /* AcupuncturePointsTests */ = {
+			isa = PBXGroup;
+			children = (
+				99ECFFBF1F9A0C5000A33FE7 /* AcupuncturePointsTests.swift */,
+				99ECFFC11F9A0C5000A33FE7 /* Info.plist */,
+			);
+			path = AcupuncturePointsTests;
+			sourceTree = "<group>";
+		};
+		99ECFFC91F9A0C5000A33FE7 /* AcupuncturePointsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99ECFFCA1F9A0C5100A33FE7 /* AcupuncturePointsUITests.swift */,
+				99ECFFCC1F9A0C5100A33FE7 /* Info.plist */,
+			);
+			path = AcupuncturePointsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99ECFFA11F9A0C5000A33FE7 /* AcupuncturePoints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99ECFFCF1F9A0C5100A33FE7 /* Build configuration list for PBXNativeTarget "AcupuncturePoints" */;
+			buildPhases = (
+				99ECFF9E1F9A0C5000A33FE7 /* Sources */,
+				99ECFF9F1F9A0C5000A33FE7 /* Frameworks */,
+				99ECFFA01F9A0C5000A33FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcupuncturePoints;
+			productName = AcupuncturePoints;
+			productReference = 99ECFFA21F9A0C5000A33FE7 /* AcupuncturePoints.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99ECFFBA1F9A0C5000A33FE7 /* AcupuncturePointsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99ECFFD21F9A0C5100A33FE7 /* Build configuration list for PBXNativeTarget "AcupuncturePointsTests" */;
+			buildPhases = (
+				99ECFFB71F9A0C5000A33FE7 /* Sources */,
+				99ECFFB81F9A0C5000A33FE7 /* Frameworks */,
+				99ECFFB91F9A0C5000A33FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99ECFFBD1F9A0C5000A33FE7 /* PBXTargetDependency */,
+			);
+			name = AcupuncturePointsTests;
+			productName = AcupuncturePointsTests;
+			productReference = 99ECFFBB1F9A0C5000A33FE7 /* AcupuncturePointsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99ECFFC51F9A0C5000A33FE7 /* AcupuncturePointsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99ECFFD51F9A0C5100A33FE7 /* Build configuration list for PBXNativeTarget "AcupuncturePointsUITests" */;
+			buildPhases = (
+				99ECFFC21F9A0C5000A33FE7 /* Sources */,
+				99ECFFC31F9A0C5000A33FE7 /* Frameworks */,
+				99ECFFC41F9A0C5000A33FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99ECFFC81F9A0C5000A33FE7 /* PBXTargetDependency */,
+			);
+			name = AcupuncturePointsUITests;
+			productName = AcupuncturePointsUITests;
+			productReference = 99ECFFC61F9A0C5000A33FE7 /* AcupuncturePointsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99ECFF9A1F9A0C5000A33FE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "xiangyu sun";
+				TargetAttributes = {
+					99ECFFA11F9A0C5000A33FE7 = {
+						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+					};
+					99ECFFBA1F9A0C5000A33FE7 = {
+						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 99ECFFA11F9A0C5000A33FE7;
+					};
+					99ECFFC51F9A0C5000A33FE7 = {
+						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 99ECFFA11F9A0C5000A33FE7;
+					};
+				};
+			};
+			buildConfigurationList = 99ECFF9D1F9A0C5000A33FE7 /* Build configuration list for PBXProject "AcupuncturePoints" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99ECFF991F9A0C5000A33FE7;
+			productRefGroup = 99ECFFA31F9A0C5000A33FE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99ECFFA11F9A0C5000A33FE7 /* AcupuncturePoints */,
+				99ECFFBA1F9A0C5000A33FE7 /* AcupuncturePointsTests */,
+				99ECFFC51F9A0C5000A33FE7 /* AcupuncturePointsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99ECFFA01F9A0C5000A33FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998BBB631FB614D600D23D75 /* ShaoerShuxue.plist in Resources */,
+				996017431FADDECC00296ED5 /* ToubuQiXue.plist in Resources */,
+				996017451FADE12D00296ED5 /* FubuQixue.plist in Resources */,
+				99EC00031F9A868400A33FE7 /* Shuxues.plist in Resources */,
+				99ECFFB51F9A0C5000A33FE7 /* LaunchScreen.storyboard in Resources */,
+				9960174B1FADE3BC00296ED5 /* XiazhiQixue.plist in Resources */,
+				99ECFFB21F9A0C5000A33FE7 /* Assets.xcassets in Resources */,
+				996017491FADE2EB00296ED5 /* ShangzhiQixue.plist in Resources */,
+				996017471FADE25D00296ED5 /* BeibuQixue.plist in Resources */,
+				99ECFFB01F9A0C5000A33FE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99ECFFB91F9A0C5000A33FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99ECFFC41F9A0C5000A33FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99ECFF9E1F9A0C5000A33FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99ECFFD91F9A10A700A33FE7 /* JingluoType.swift in Sources */,
+				99ECFFDF1F9A2D6F00A33FE7 /* DataUpdator.swift in Sources */,
+				998BBB651FB627F100D23D75 /* ShuxueDataSource.swift in Sources */,
+				99DBEE3C2014EE4D005D6564 /* ShuxueApplianceTableViewCell.swift in Sources */,
+				99ECFFDB1F9A1DF000A33FE7 /* ShuXueType.swift in Sources */,
+				995E9E791F9FA047009FB55C /* JingluoYingYangDataSource.swift in Sources */,
+				996D25591FADEFD100F655F8 /* ShuxueDetailTableViewController.swift in Sources */,
+				995E9E771F9F9F4A009FB55C /* JingluoFlowDataSource.swift in Sources */,
+				99EC00011F9A7CFF00A33FE7 /* ShuxueTableViewController.swift in Sources */,
+				99ECFFA91F9A0C5000A33FE7 /* AcupuncturePoints.xcdatamodeld in Sources */,
+				99ECFFA61F9A0C5000A33FE7 /* AppDelegate.swift in Sources */,
+				996D255B1FADF01B00F655F8 /* ShuxueTitleTableViewCell.swift in Sources */,
+				995E9E7D1F9FAD2D009FB55C /* ShuxueTableViewCell.swift in Sources */,
+				995E9E7B1F9FA8F2009FB55C /* ShuxueSearchTableViewController.swift in Sources */,
+				996D255D1FADF02700F655F8 /* ShuxueCureTableViewCell.swift in Sources */,
+				998BBB671FB62DEB00D23D75 /* Shuxue+Util.swift in Sources */,
+				99EC00051F9B89C400A33FE7 /* BiaoliTableViewCell.swift in Sources */,
+				99ECFFDD1F9A29A300A33FE7 /* DisplayTableViewController.swift in Sources */,
+				99ECFFAB1F9A0C5000A33FE7 /* MasterViewController.swift in Sources */,
+				996D255F1FADF03500F655F8 /* ShuxueLocatingTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99ECFFB71F9A0C5000A33FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99ECFFC01F9A0C5000A33FE7 /* AcupuncturePointsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99ECFFC21F9A0C5000A33FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99ECFFCB1F9A0C5100A33FE7 /* AcupuncturePointsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99ECFFBD1F9A0C5000A33FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99ECFFA11F9A0C5000A33FE7 /* AcupuncturePoints */;
+			targetProxy = 99ECFFBC1F9A0C5000A33FE7 /* PBXContainerItemProxy */;
+		};
+		99ECFFC81F9A0C5000A33FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99ECFFA11F9A0C5000A33FE7 /* AcupuncturePoints */;
+			targetProxy = 99ECFFC71F9A0C5000A33FE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99ECFFAE1F9A0C5000A33FE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99ECFFAF1F9A0C5000A33FE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99ECFFB31F9A0C5000A33FE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99ECFFB41F9A0C5000A33FE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99ECFFCD1F9A0C5100A33FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99ECFFCE1F9A0C5100A33FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99ECFFD01F9A0C5100A33FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46S3S784AR;
+				INFOPLIST_FILE = AcupuncturePoints/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uriphium.AcupuncturePoints;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99ECFFD11F9A0C5100A33FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46S3S784AR;
+				INFOPLIST_FILE = AcupuncturePoints/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uriphium.AcupuncturePoints;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99ECFFD31F9A0C5100A33FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U8355NX55G;
+				INFOPLIST_FILE = AcupuncturePointsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uriphium.AcupuncturePointsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcupuncturePoints.app/AcupuncturePoints";
+			};
+			name = Debug;
+		};
+		99ECFFD41F9A0C5100A33FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U8355NX55G;
+				INFOPLIST_FILE = AcupuncturePointsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uriphium.AcupuncturePointsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcupuncturePoints.app/AcupuncturePoints";
+			};
+			name = Release;
+		};
+		99ECFFD61F9A0C5100A33FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U8355NX55G;
+				INFOPLIST_FILE = AcupuncturePointsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uriphium.AcupuncturePointsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AcupuncturePoints;
+			};
+			name = Debug;
+		};
+		99ECFFD71F9A0C5100A33FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U8355NX55G;
+				INFOPLIST_FILE = AcupuncturePointsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uriphium.AcupuncturePointsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AcupuncturePoints;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99ECFF9D1F9A0C5000A33FE7 /* Build configuration list for PBXProject "AcupuncturePoints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99ECFFCD1F9A0C5100A33FE7 /* Debug */,
+				99ECFFCE1F9A0C5100A33FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99ECFFCF1F9A0C5100A33FE7 /* Build configuration list for PBXNativeTarget "AcupuncturePoints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99ECFFD01F9A0C5100A33FE7 /* Debug */,
+				99ECFFD11F9A0C5100A33FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99ECFFD21F9A0C5100A33FE7 /* Build configuration list for PBXNativeTarget "AcupuncturePointsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99ECFFD31F9A0C5100A33FE7 /* Debug */,
+				99ECFFD41F9A0C5100A33FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99ECFFD51F9A0C5100A33FE7 /* Build configuration list for PBXNativeTarget "AcupuncturePointsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99ECFFD61F9A0C5100A33FE7 /* Debug */,
+				99ECFFD71F9A0C5100A33FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		99ECFFA71F9A0C5000A33FE7 /* AcupuncturePoints.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				99ECFFA81F9A0C5000A33FE7 /* AcupuncturePoints.xcdatamodel */,
+			);
+			currentVersion = 99ECFFA81F9A0C5000A33FE7 /* AcupuncturePoints.xcdatamodel */;
+			path = AcupuncturePoints.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 99ECFF9A1F9A0C5000A33FE7 /* Project object */;
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17C205" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BodyPart" representedClassName="BodyPart" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="jingluoEnds" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Jingluo" inverseName="end" inverseEntity="Jingluo" syncable="YES"/>
+        <relationship name="jingLuoStarts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Jingluo" inverseName="start" inverseEntity="Jingluo" syncable="YES"/>
+    </entity>
+    <entity name="Jingluo" representedClassName="Jingluo" codeGenerationType="class">
+        <attribute name="jing" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" spotlightIndexingEnabled="YES">
+            <userInfo/>
+        </attribute>
+        <attribute name="yang" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="biao" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Jingluo" inverseName="li" inverseEntity="Jingluo" syncable="YES"/>
+        <relationship name="end" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BodyPart" inverseName="jingluoEnds" inverseEntity="BodyPart" syncable="YES"/>
+        <relationship name="li" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Jingluo" inverseName="biao" inverseEntity="Jingluo" syncable="YES"/>
+        <relationship name="shuxues" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Shuxue" inverseName="jingluo" inverseEntity="Shuxue" syncable="YES"/>
+        <relationship name="start" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BodyPart" inverseName="jingLuoStarts" inverseEntity="BodyPart" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <entity name="Shuxue" representedClassName="Shuxue" syncable="YES" codeGenerationType="class">
+        <attribute name="appliance" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="earlyChildhood" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="effect" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locating" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mainCures" optional="YES" attributeType="String" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <relationship name="jingluo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Jingluo" inverseName="shuxues" inverseEntity="Jingluo" syncable="YES"/>
+        <relationship name="note" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="ShuxueNote" inverseName="shuxue" inverseEntity="ShuxueNote" syncable="YES"/>
+    </entity>
+    <entity name="ShuxueNote" representedClassName="ShuxueNote" syncable="YES" codeGenerationType="class">
+        <attribute name="lastModifiedDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="shuxue" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Shuxue" inverseName="note" inverseEntity="Shuxue" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BodyPart" positionX="270" positionY="225" width="128" height="90"/>
+        <element name="Jingluo" positionX="261" positionY="189" width="128" height="165"/>
+        <element name="Shuxue" positionX="261" positionY="198" width="128" height="165"/>
+        <element name="ShuxueNote" positionX="270" positionY="261" width="128" height="90"/>
+    </elements>
+</model>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>mainCures</key>
+		<string>腰肌劳损，腹部肿瘤</string>
+		<key>name</key>
+		<string>痞根</string>
+		<key>locating</key>
+		<string>第一腰椎棘突下，旁开三寸</string>
+		<key>forbidden</key>
+		<string>孕妇</string>
+	</dict>
+</array>
+</plist>
